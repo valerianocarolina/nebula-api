@@ -1,0 +1,49 @@
+# Ambiente virtual
+venv/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Banco SQLite
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Uploads
+media/
+
+# Static coletados
+staticfiles/
+
+# Pytest
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Docker
+postgres_data/
+
+# IDEs
+.idea/
+
+# Mac/Linux
+*.swp
