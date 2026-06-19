@@ -1,5 +1,7 @@
 #!/bin/sh
 
+mkdir -p logs
+
 echo "Aplicando migrations..."
 
 python manage.py migrate
