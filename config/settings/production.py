@@ -12,8 +12,8 @@ SECRET_KEY = config(
 CORS_ALLOW_ALL_ORIGINS = True
 
 ALLOWED_HOSTS = config(
-  ".onrender.com",
-)
+  'ALLOWED_HOSTS'
+).split(',')
 
 SENTRY_DSN = config(
   'SENTRY_DSN',
